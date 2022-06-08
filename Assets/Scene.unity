@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &186802190
 MonoBehaviour:
@@ -11242,7 +11242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1406154912
 MonoBehaviour:
@@ -47339,7 +47339,7 @@ MonoBehaviour:
   m_FocusMode: -1
   m_LightEstimationMode: -1
   m_AutoFocus: 1
-  m_LightEstimation: 0
+  m_LightEstimation: -1
   m_FacingDirection: 1
 --- !u!114 &1763835430
 MonoBehaviour:
@@ -87985,7 +87985,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.9264706, g: 0.9300203, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.74
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -88045,6 +88045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8922740167644395081}
   - component: {fileID: 8922740167638214473}
+  - component: {fileID: 8922740167644395082}
   m_Layer: 0
   m_Name: DirectionalLightKey
   m_TagString: Untagged
@@ -88075,14 +88076,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8922740167644162665}
-  m_LocalRotation: {x: 0.10612621, y: -0.6340519, z: 0.61315244, w: 0.45908558}
+  m_LocalRotation: {x: -0.2918785, y: 0.6440551, z: -0.6440551, w: -0.2918785}
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8922740167644395085}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 118.957, y: 110.991, z: -117.768005}
+  m_LocalEulerAnglesHint: {x: 90, y: 110.991, z: -117.768005}
+--- !u!114 &8922740167644395082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8922740167644162665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37dfaae7c2145a438b09f22021f6a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arCameraManager: {fileID: 1763835429}
 --- !u!4 &8922740167644395085
 Transform:
   m_ObjectHideFlags: 0
