@@ -94,6 +94,7 @@
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_HorizontalAlignmentOptions.cs" />
      <Compile Include="Assets\Scripts\Others\ScenarioCompleted.cs" />
      <Compile Include="Assets\Scripts\Interaction\ObjectLerpingController.cs" />
+     <Compile Include="Assets\Scripts\Others\LightEstimation.cs" />
      <Compile Include="Assets\Scripts\Tracking\FetchAspectRatioFromARCamera.cs" />
      <Compile Include="Assets\Scripts\UI\OnBoardingController.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TextAlignmentOptions.cs" />
@@ -113,7 +114,6 @@
      <Compile Include="Assets\Scripts\UI\InteractButton.cs" />
      <Compile Include="Assets\Scripts\UI\InteractionButtonController.cs" />
      <Compile Include="Assets\Scripts\Interaction\AudioController.cs" />
-     <Compile Include="Assets\Scripts\Others\LightEstimation.cs" />
      <None Include="Assets\Shaders\OutlineMask.shader" />
      <None Include="Assets\Shaders\InvisibleOcclusion.shader" />
      <None Include="Assets\Shaders\TransparentShadow.shader" />
