@@ -68,7 +68,7 @@ namespace UI
         private void Awake()
         {
             PrefabSpawningController.prefabSpawned += ActivateInteractButtons;
-            PrefabSpawningController.RepositionPrefab += DeactivateInteractButtons;
+            //PrefabSpawningController.RepositionPrefab += DeactivateInteractButtons;
             grabButtonText = grabButton.GetComponentInChildren<TMP_Text>();
         }
         /// <summary>
@@ -77,7 +77,7 @@ namespace UI
         private void OnDestroy()
         {
             PrefabSpawningController.prefabSpawned -= ActivateInteractButtons;
-            PrefabSpawningController.RepositionPrefab -= DeactivateInteractButtons;
+            //PrefabSpawningController.RepositionPrefab -= DeactivateInteractButtons;
         }
         /// <summary>
         /// Starts updating of the interaction buttons and the rotation.
