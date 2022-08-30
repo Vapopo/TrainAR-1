@@ -59,7 +59,7 @@ namespace Interaction
         /// </summary>
         /// <value>Stored on Start.</value>
         [Tooltip("Stores the original material.")]
-        private Dictionary<GameObject, Material> originalMaterials = new Dictionary<GameObject, Material>();
+        public Dictionary<GameObject, Material> originalMaterials = new Dictionary<GameObject, Material>();
 
         /// <summary>
         /// Saves the original material and set missing references.
