@@ -113,6 +113,7 @@
      <Compile Include="Assets\Scripts\UI\InteractButton.cs" />
      <Compile Include="Assets\Scripts\UI\InteractionButtonController.cs" />
      <Compile Include="Assets\Scripts\Interaction\AudioController.cs" />
+     <None Include="Assets\Effects\Blob Shadows\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Shaders\OutlineMask.shader" />
      <None Include="Assets\Shaders\InvisibleOcclusion.shader" />
      <None Include="Assets\Shaders\TransparentShadow.shader" />
