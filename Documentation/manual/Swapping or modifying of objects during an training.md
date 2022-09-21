@@ -20,7 +20,7 @@ To open the package, the user is supposed to interact with the packaged syringe.
 
 ![](../resources/SwapTrainArObjects_SwapStateflow.gif)
 
-### Example 2: Combining to objects to one
+### Example 2: Combining two objects to one
 Sometimes you may want to model the attachment of one model to another. This can also be realized with the [*TrainAR Object Helper*](../manuals/ObjectHelperNode.md) node, but with an additional step.
 
 In this example we want to connect a needle to the syringe. For this, three **TrainAR Objects** are needed: the syringe without needle, the syringe with needle and the needle. The syringe with needle needs to be set to invisible at the start of the training. At first we again add a [*TrainAR Action*](../manuals/ActionNodes.md) node as a trigger for the replacement process, this time set to combine. The *grabbed object* in this case is the syringe and the *stationary object* is the needle. Next, the syringe is replaced via a *TrainAR Object Helper* node and since the needle is now attached to the syringe, the needle can be set to invisible. This is done as well with a *TrainAR Object Helper* node, but with the option *Toggle Invisible*.
